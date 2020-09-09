@@ -1,0 +1,75 @@
+.main_projects {
+    background: #f8f9fa;
+}
+
+.addition_padding {
+    padding: 0 1.5%;
+}
+
+.project_tabs {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.project_tabs>button {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.project_tabs>button:hover {
+    color: #f5b316;
+}
+
+.project_elem {
+    position: relative;
+    width: calc(100% / 4 - 3%);
+    margin-bottom: 3%;
+    height: 400px;
+}
+
+.project_elem>img {
+    width: 100%;
+    height: 110%;
+}
+
+.project_inner {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    background: #fff;
+    padding: 6%;
+    text-align: center;
+    text-transform: uppercase;
+    /* opacity: 0; */
+}
+
+.project_inner>h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.project_inner>.hr {
+    height: 2px;
+    width: 30%;
+    background-color: #f5b316;
+    margin: 5% auto;
+}
+
+.project_inner>p>a.fas {
+    color: #000;
+    font-size: 24px;
+    margin-left: 6%;
+    transition: .5s;
+}
+
+.project_inner>p>a.fas:hover {
+    color: #f5b316;
+}

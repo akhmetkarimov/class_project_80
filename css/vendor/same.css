@@ -32,3 +32,19 @@
     border-color: #282828;
     color: #282828
 }
+
+.section_titles {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section_tops {
+    width: 50%;
+    margin-bottom: 8%;
+}
+
+.wrap_elements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

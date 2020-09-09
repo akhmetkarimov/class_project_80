@@ -23,21 +23,12 @@
     margin: 20px 0;
 }
 
-.about_text {
-    width: 50%;
-}
-
-.about_text>h2 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
 .tab_block>p {
     color: #707070;
 }
 
 .tab_block {
-    margin: 8% 0;
+    margin: 0 0 8%;
     line-height: 1.5;
 }
 
@@ -77,4 +68,75 @@
 .about_btns {
     display: flex;
     justify-content: space-between;
+}
+
+.service_elem {
+    width: calc(100% / 3 - 3%);
+    border: 1px solid #c3c3c3;
+    text-align: center;
+    line-height: 2;
+    padding: 3% 1%;
+}
+
+.service_img_f {
+    width: auto;
+    height: 55px;
+}
+
+.service_images {
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+
+.service_img_f {
+    position: absolute;
+    z-index: 3;
+}
+
+.service_img_b {
+    position: absolute;
+    z-index: 2;
+}
+
+.service_line {
+    margin: 30px 0;
+}
+
+.service_line>h4 {
+    font-weight: 500;
+    font-size: 18px;
+    transition: .8s;
+}
+
+.service_line>hr {
+    width: 20%;
+    transition: 1s;
+}
+
+.service_elem:hover .service_img_b {
+    animation-name: yellow_rotate;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite;*/
+    animation-fill-mode: forwards;
+}
+
+.service_elem:hover hr {
+    width: 30%;
+}
+
+.service_elem:hover h4 {
+    color: #f5b316;
+}
+
+
+/* from 0%, to 100% */
+
+@keyframes yellow_rotate {
+    100% {
+        transform: rotate(40deg);
+    }
 }
