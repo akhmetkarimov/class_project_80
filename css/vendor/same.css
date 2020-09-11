@@ -40,11 +40,18 @@
 
 .section_tops {
     width: 50%;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
 }
 
 .wrap_elements {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.hr {
+    height: 2px;
+    width: 30%;
+    background-color: #f5b316;
+    margin: 5% auto;
 }

@@ -2,5 +2,7 @@
 @import url('components/under_header.css');
 @import url('components/main_first_content.css');
 @import url('components/main_projects.css');
+@import url('components/partials.css');
+@import url('components/main_second_content.css');
 @import url('vendor/same.css');
 @import url('vendor/reset.css');

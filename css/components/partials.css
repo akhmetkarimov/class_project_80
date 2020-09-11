@@ -1,0 +1,40 @@
+.main_counter {
+    position: relative;
+    background-image: url('../../images/bgs/counter_bg.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dark_bg {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.count {
+    position: relative;
+    z-index: 2;
+    width: 33.33%;
+    text-align: center;
+    color: #fff;
+}
+
+.count:nth-child(2) {
+    border-right: 1px solid #707070;
+    border-left: 1px solid #707070;
+}
+
+.count>.hr {
+    height: 6px;
+}
+
+.count>img {
+    height: 50px;
+    width: auto;
+}
