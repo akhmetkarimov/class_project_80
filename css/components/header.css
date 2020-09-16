@@ -1,6 +1,6 @@
 .Header {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     padding: 30px 0;
 }
@@ -38,6 +38,10 @@
 
 .header_nav>ul>li:hover {
     border-color: #f5b316;
+}
+
+.mobile_bar.fas {
+    display: none;
 }
 
 
