@@ -46,3 +46,14 @@ console.log(num1 * num2) // 14
 console.log(num1 % num2) // 1
 
 console.log(8 % 2)
+
+
+
+console.log("SQRT", Math.sqrt(16))
+console.log("POW", Math.pow(3, 2))
+console.log("ROUND", Math.round(5.3))
+console.log("CEIL", Math.ceil(5.1))
+console.log("FLOOR", Math.floor(5.9))
+console.log(Math.pow(Math.sqrt(49), Math.floor(4.4)))
+
+console.log("RANDMON", Math.floor(Math.random() * 100))
