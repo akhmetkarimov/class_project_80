@@ -230,3 +230,66 @@ let arr_obj = [
 
 //     console.log(str)
 // }
+
+
+// let ass_arr = {
+//     names: ["name1", "name2"],
+//     surnames: ["surname1", "surname2"],
+//     salary: [100, 200]
+// }
+
+// ass_arr.names.map(elem => {
+//     console.log(elem)
+// })
+
+// ass_arr.surnames.map(elem => {
+//     console.log(elem)
+// })
+
+// for (let elem in ass_arr) {
+//     for (let elem_in of ass_arr[elem]) {
+//         console.log(elem, elem_in)
+//     }
+// }
+
+// for (let i = 0; i < ass_arr.names.length; i++) {
+//     console.log(ass_arr.names[i], ass_arr.surnames[i], ass_arr.salary[i])
+// }
+
+
+let test_obj = {
+    qwe: 123,
+    asd: 222
+}
+
+console.log(test_obj)
+
+test_obj.new_key = 555
+
+console.log(test_obj)
+
+test_obj.avg_salay = 112234
+
+console.log(test_obj)
+
+console.log(test_obj.asd)
+console.log(test_obj['asd'])
+
+test_obj['aaaa'] = 999
+
+console.log(test_obj)
+
+
+// let students = [{
+//         name: "Student 1",
+//         grade: 90
+//     },
+//     {
+//         name: "Student 2",
+//         grade: 45
+//     },
+//     {
+//         name: "Student 3",
+//         grade: 70
+//     }
+// ]
