@@ -1,0 +1,98 @@
+.main_modal{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content_modal{
+    background-color: #ffffff;
+    width: 80vw;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.closeButton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    border: 1px solid transparent;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.closeButton:hover{
+    border-color: black;
+    color: black;
+}
+
+
+.main_modal.active{
+    display: flex;
+}
+
+.my_image{
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+   
+    cursor: pointer;
+
+    border: 4px solid transparent;
+
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.my_image:hover{
+    border-color: black;
+}
+
+#image_modal{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prev, .next{
+    cursor: pointer;
+
+    position: absolute;
+
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 36px;
+
+    transition: .5s;
+}
+
+.prev:hover, .next:hover{
+    color: black;
+}
+
+.prev{    
+    left: 5vw;
+}
+.next{
+    right: 5vw;
+}

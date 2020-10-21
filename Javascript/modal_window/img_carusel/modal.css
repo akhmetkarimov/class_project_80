@@ -1,0 +1,67 @@
+.my_image{
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+   
+    cursor: pointer;
+
+    border: 4px solid transparent;
+
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.my_image:hover{
+    border-color: black;
+}
+
+.my_image.active{
+    border-color: black;
+}
+
+.main_images{
+    text-align: center;
+}
+
+.image_container{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+#main_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 4px solid red;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.prev, .next{
+    cursor: pointer;
+
+    position: absolute;
+
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 36px;
+
+    transition: .5s;
+}
+
+.prev:hover, .next:hover{
+    color: black;
+}
+
+.prev{    
+    left: 5vw;
+}
+.next{
+    right: 5vw;
+}

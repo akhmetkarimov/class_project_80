@@ -1,0 +1,63 @@
+.main_modal{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    z-index: 0;
+    
+    /* width: 0; */
+    /* height: 0; */
+    transition: .5s;
+    transform: scale(0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content_modal{
+    background-color: #ffffff;
+    width: 80vw;
+    height: 60vh;
+
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    display: none
+}
+
+
+.closeButton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    border: 1px solid transparent;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.closeButton:hover{
+    border-color: black;
+    color: black;
+}
+
+
+.main_modal.active{
+    transform: scale(1);
+    /* display: flex; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.main_modal.active .content_modal{
+    display: flex;
+}
