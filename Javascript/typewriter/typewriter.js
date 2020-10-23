@@ -32,6 +32,15 @@ function deleteWord(){
     }
 }
 
+let counter = 0
+
+function StartCount(){
+    setInterval(function(){
+        document.querySelector('#counter').innerText = counter
+        counter += 1
+    }, 1000)
+}
+
 
 
 
