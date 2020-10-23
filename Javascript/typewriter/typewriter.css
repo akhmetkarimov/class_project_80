@@ -1,0 +1,12 @@
+.cursour{
+    animation: cursourOpacity .2s infinite alternate;
+}
+
+@keyframes cursourOpacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
